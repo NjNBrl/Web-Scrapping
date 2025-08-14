@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import re
 from mido import MidiFile
 
-GENIUS_API_TOKEN = '2UM47C3fx2yXJR0BwK4N3VDSad0SFROWVAoiLsS_9ba0nl_ruLkh43ub7HsYdOqgk5jMzqZBm6y3SXqbhs5gJg'
+GENIUS_API_TOKEN = 'FUy_sZXEhriY55pscdZejj-TCUB317FyosfzUeCMywC7dWSt8v1lUL6rIDceLGrJ'
 
 def search_song_url(query):
     print(f"Searching for: {query}")
