@@ -30,7 +30,7 @@ def fetch_html(url):
     return response.text
 
 def get_song_page_links(page_number):
-    url = BASE_URL if page_number == 1 else f"{BASE_URL}?p={page_number}"
+    url = BASE_URL if page_number == 1 else f"{BASE_URL}?page={page_number}"
     html = fetch_html(url)
     soup = BeautifulSoup(html, "html.parser")
     song_links = []
